@@ -1,0 +1,372 @@
+[
+    {
+    "countryEn": "eg",
+    "countryAr": "مصر",
+    "capetal": { "nameEn": "Cairo", "nameAr": "القاهرة" },
+    "cities": [
+        { "nameEn": "Alexandria", "nameAr": "الإسكندرية" },
+        { "nameEn": "Cairo", "nameAr": "القاهرة" },
+        { "nameEn": "Ismailia", "nameAr": "الاسماعيلية" },
+        { "nameEn": "Gizeh", "nameAr": "الجيزة" },
+        { "nameEn": "Aswan", "nameAr": "أسوان" },
+        { "nameEn": "Luxor", "nameAr": "الأقصر" },
+        { "nameEn": "Damanhur", "nameAr": "دمنهور" },
+        { "nameEn": "Shubra El-Kheima", "nameAr": "شبرا الخيمة" },
+        { "nameEn": "Port Said", "nameAr": "بور سعيد" }
+    ]
+},
+{
+    "countryEn": "tn",
+    "countryAr": "تونس",
+    "capetal": { "nameEn": "Tunis", "nameAr": "تونس" },
+    "cities": [
+        { "nameEn": "Tunis", "nameAr": "تونس" },
+        { "nameEn": "Sfax", "nameAr": "صفاقس" },
+        { "nameEn": "Sousse", "nameAr": "سوسة" },
+        { "nameEn": "Kairouan", "nameAr": "القيروان" }
+    ]
+},
+{
+    "countryEn": "ma",
+    "countryAr": "المغرب",
+    "capetal": { "nameEn": "Rabat", "nameAr": "الرباط" },
+    "cities": [
+        { "nameEn": "Casablanca", "nameAr": "الدار البيضاء" },
+        { "nameEn": "Rabat", "nameAr": "الرباط" },
+        { "nameEn": "Fes", "nameAr": "فاس" },
+        { "nameEn": "Marrakesh", "nameAr": "مراكش" },
+        { "nameEn": "Tangier", "nameAr": "طنجة" }
+    ]
+},
+{
+    "countryEn": "dz",
+    "countryAr": "الجزائر",
+    "capetal": { "nameEn": "Algiers", "nameAr": "الجزائر" },
+    "cities": [
+        { "nameEn": "Algiers", "nameAr": "الجزائر" },
+        { "nameEn": "Oran", "nameAr": "وهران" },
+        { "nameEn": "Constantine", "nameAr": "قسنطينة" },
+        { "nameEn": "Annaba", "nameAr": "عنابة" }
+    ]
+},
+{
+    "countryEn": "ly",
+    "countryAr": "ليبيا",
+    "capetal": { "nameEn": "Tripoli", "nameAr": "طرابلس" },
+    "cities": [
+        { "nameEn": "Tripoli", "nameAr": "طرابلس" },
+        { "nameEn": "Benghazi", "nameAr": "بنغازي" },
+        { "nameEn": "Misrata", "nameAr": "مصراتة" },
+        { "nameEn": "Sabha", "nameAr": "سبها" }
+    ]
+},
+{
+    "countryEn": "sa",
+    "countryAr": "السعودية", 
+    "capetal": { "nameEn": "Riyadh", "nameAr": "الرياض" },
+    "cities": [
+        { "nameEn": "Riyadh", "nameAr": "الرياض" },
+        { "nameEn": "Jeddah", "nameAr": "جدة" },
+        { "nameEn": "Mecca", "nameAr": "مكة المكرمة" },
+        { "nameEn": "Medina", "nameAr": "المدينة المنورة" },
+        { "nameEn": "Dammam", "nameAr": "الدمام" },
+        { "nameEn": "Taif", "nameAr": "الطائف" }
+    ]
+},
+{
+    "countryEn": "ae",
+    "countryAr": "الإمارات",
+    "capetal": { "nameEn": "Abu Dhabi", "nameAr": "أبو ظبي" },
+    "cities": [
+        { "nameEn": "Abu Dhabi", "nameAr": "أبو ظبي" },
+        { "nameEn": "Dubai", "nameAr": "دبي" },
+        { "nameEn": "Sharjah", "nameAr": "الشارقة" },
+        { "nameEn": "Ajman", "nameAr": "عجمان" },
+        { "nameEn": "Al Ain", "nameAr": "العين" }
+    ]
+},
+{
+    "countryEn": "jo",
+    "countryAr": "الأردن",
+    "capetal": { "nameEn": "Amman", "nameAr": "عمان" },
+    "cities": [
+        { "nameEn": "Amman", "nameAr": "عمان" },
+        { "nameEn": "Zarqa", "nameAr": "الزرقاء" },
+        { "nameEn": "Irbid", "nameAr": "إربد" },
+        { "nameEn": "Aqaba", "nameAr": "العقبة" }
+    ]
+},
+{
+    "countryEn": "ps",
+    "countryAr": "فلسطين",
+    "capetal": { "nameEn": "Jerusalem", "nameAr": "القدس" },
+    "cities": [
+        { "nameEn": "Jerusalem", "nameAr": "القدس" },
+        { "nameEn": "Gaza", "nameAr": "غزة" },
+        { "nameEn": "Ramallah", "nameAr": "رام الله" },
+        { "nameEn": "Nablus", "nameAr": "نابلس" },
+        { "nameEn": "Hebron", "nameAr": "الخليل" },
+        { "nameEn": "Bethlehem", "nameAr": "بيت لحم" },
+        { "nameEn": "Jenin", "nameAr": "جنين" },
+        { "nameEn": "Tulkarm", "nameAr": "طولكرم" },
+        { "nameEn": "Qalqilya", "nameAr": "قلقيلية" }
+    ]
+},
+{
+    "countryEn": "kw",
+    "countryAr": "الكويت",
+    "capetal": { "nameEn": "Kuwait City", "nameAr": "مدينةالكويت" },
+    "cities": [
+        { "nameEn": "Kuwait City", "nameAr": "مدينة الكويت" },
+        { "nameEn": "Hawally", "nameAr": "حولي" },
+        { "nameEn": "Salmiya", "nameAr": "السالمية" },
+        { "nameEn": "Al Ahmadi", "nameAr": "الأحمدي" },
+        { "nameEn": "Al Jahra", "nameAr": "الجهراء" },
+        { "nameEn": "Al Farwaniyah", "nameAr": "الفروانية" },
+        { "nameEn": "Sabah Al Salem", "nameAr": "صباح السالم" },
+        { "nameEn": "Al Mangaf", "nameAr": "المنقف" },
+        { "nameEn": "Fahaheel", "nameAr": "الفحيحيل" },
+        { "nameEn": "Mubarak Al-Kabeer", "nameAr": "مبارك الكبير" },
+        { "nameEn": "Al Sulaibikhat", "nameAr": "الصليبيخات" },
+        { "nameEn": "Al Qurain", "nameAr": "القرين" },
+        { "nameEn": "Sabah Al Ahmad", "nameAr": "صباح الأحمد" },
+        { "nameEn": "Abdullah Al-Salem", "nameAr": "عبد الله السالم" },
+        { "nameEn": "Al Qadsiya", "nameAr": "القادسية" },
+        { "nameEn": "Abdullah Al-Mubarak", "nameAr": "عبد الله المبارك" },
+        { "nameEn": "Al Andalus", "nameAr": "الأندلس" },
+        { "nameEn": "Al Ardiya", "nameAr": "العارضية" },
+        { "nameEn": "Al Daiya", "nameAr": "الدعية" }
+    ]
+},
+{
+    "countryEn": "om",
+    "countryAr": "عمان",
+    "capetal": { "nameEn": "Muscat", "nameAr": "مسقط" },
+    "cities": [
+        { "nameEn": "Muscat", "nameAr": "مسقط" },
+        { "nameEn": "Salalah", "nameAr": "صلالة" },
+        { "nameEn": "Sohar", "nameAr": "صحار" },
+        { "nameEn": "Nizwa", "nameAr": "نزوى" }
+    ]
+},
+{
+    "countryEn": "bh",
+    "countryAr": "البحرين",
+    "capetal": { "nameEn": "Manama", "nameAr": "المنامة" },
+    "cities": [
+        { "nameEn": "Manama", "nameAr": "المنامة" },
+        { "nameEn": "Riffa", "nameAr": "الرفاع" },
+        { "nameEn": "Muharraq", "nameAr": "المحرق" },
+        { "nameEn": "Hamad Town", "nameAr": "مدينة حمد" }
+    ]
+},
+{
+    "countryEn": "qa",
+    "countryAr": "قطر",
+    "capetal": { "nameEn": "Doha", "nameAr": "الدوحة" },
+    "cities": [
+        { "nameEn": "Doha", "nameAr": "الدوحة" },
+        { "nameEn": "Al Wakrah", "nameAr": "الوكرة" },
+        { "nameEn": "Al Khor", "nameAr": "الخور" },
+        { "nameEn": "Al Rayyan", "nameAr": "الريان" }
+    ]
+},
+{
+    "countryEn": "ye",
+    "countryAr": "اليمن",
+    "capetal": { "nameEn": "Sana'a", "nameAr": "صنعاء" },
+    "cities": [
+        { "nameEn": "Sana'a", "nameAr": "صنعاء" },
+        { "nameEn": "Aden", "nameAr": "عدن" },
+        { "nameEn": "Taiz", "nameAr": "تعز" },
+        { "nameEn": "Hodeidah", "nameAr": "الحديدة" }
+    ]
+},
+{
+    "countryEn": "lb",
+    "countryAr": "لبنان",
+    "capetal": { "nameEn": "Beirut", "nameAr": "بيروت" },
+    "cities": [
+        { "nameEn": "Beirut", "nameAr": "بيروت" },
+        { "nameEn": "Tripoli", "nameAr": "طرابلس" },
+        { "nameEn": "Sidon", "nameAr": "صيدا" },
+        { "nameEn": "Tyre", "nameAr": "صور" }
+    ]
+},
+{
+    "countryEn": "so",
+    "countryAr": "الصومال",
+    "capetal": { "nameEn": "Mogadishu", "nameAr": "مقديشو" },
+    "cities": [
+        { "nameEn": "Mogadishu", "nameAr": "مقديشو" },
+        { "nameEn": "Hargeisa", "nameAr": "هرجيسا" },
+        { "nameEn": "Kismayo", "nameAr": "كيسمايو" },
+        { "nameEn": "Bosaso", "nameAr": "بوساسو" }
+    ]
+},
+{
+    "countryEn": "sd",
+    "countryAr": "السودان",
+    "capetal": { "nameEn": "Khartoum", "nameAr": "الخرطوم" },
+    "cities": [
+        { "nameEn": "Khartoum", "nameAr": "الخرطوم" },
+        { "nameEn": "Omdurman", "nameAr": "أم درمان" },
+        { "nameEn": "Port Sudan", "nameAr": "بورتسودان" },
+        { "nameEn": "Kassala", "nameAr": "كسلا" }
+    ]
+},
+{
+    "countryEn": "mr",
+    "countryAr": "موريتانيا",
+    "capetal": { "nameEn": "Nouakchott", "nameAr": "نواكشوط" },
+    "cities": [
+        { "nameEn": "Nouakchott", "nameAr": "نواكشوط" },
+        { "nameEn": "Nouadhibou", "nameAr": "نواذيبو" },
+        { "nameEn": "Kiffa", "nameAr": "كيفة" },
+        { "nameEn": "Rosso", "nameAr": "روصو" }
+    ]
+},
+{
+    "countryEn": "dj",
+    "countryAr": "جيبوتي",
+    "capetal": { "nameEn": "Djibouti", "nameAr": "جيبوتي" },
+    "cities": [
+        { "nameEn": "Djibouti", "nameAr": "جيبوتي" },
+        { "nameEn": "Ali Sabieh", "nameAr": "علي صبيح" },
+        { "nameEn": "Tadjoura", "nameAr": "تاجورة" },
+        { "nameEn": "Obock", "nameAr": "أوبوك" }
+    ]
+},
+{
+    "countryEn": "sy",
+    "countryAr": "سوريا",
+    "capetal": { "nameEn": "Damascus", "nameAr": "دمشق" },
+    "cities": [
+        { "nameEn": "Damascus", "nameAr": "دمشق" },
+        { "nameEn": "Aleppo", "nameAr": "حلب" },
+        { "nameEn": "Homs", "nameAr": "حمص" },
+        { "nameEn": "Latakia", "nameAr": "اللاذقية" }
+    ]
+},
+{
+    "countryEn": "iq",
+    "countryAr": "العراق",
+    "capetal": { "nameEn": "Baghdad", "nameAr": "بغداد" },
+    "cities": [
+        { "nameEn": "Baghdad", "nameAr": "بغداد" },
+        { "nameEn": "Basra", "nameAr": "البصرة" },
+        { "nameEn": "Mosul", "nameAr": "الموصل" },
+        { "nameEn": "Erbil", "nameAr": "أربيل" }
+    ]
+},
+{
+    "countryEn": "km",
+    "countryAr": "جزر القمر",
+    "capetal": { "nameEn": "Moroni", "nameAr": "موروني" },
+    "cities": [
+        { "nameEn": "Moroni", "nameAr": "موروني" },
+        { "nameEn": "Mutsamudu", "nameAr": "متساموdu" },
+        { "nameEn": "Fomboni", "nameAr": "فومبوني" },
+        { "nameEn": "Domoni", "nameAr": "دوموني" }
+    ]
+},
+{
+    "countryEn": "mu",
+    "countryAr": "موريشيوس",
+    "capetal": { "nameEn": "Port Louis", "nameAr": "بورت لويس" },
+    "cities": [
+        { "nameEn": "Port Louis", "nameAr": "بورت لويس" },
+        { "nameEn": "Beau Bassin", "nameAr": "بو باسان" },
+        { "nameEn": "Vacoas", "nameAr": "فاكواس" },
+        { "nameEn": "Curepipe", "nameAr": "كوربيب" }
+    ]
+},
+{
+    "countryEn": "eh",
+    "countryAr": "الصحراء الغربية",
+    "capetal": { "nameEn": "Laayoune", "nameAr": "العيون" },
+    "cities": [
+        { "nameEn": "Laayoune", "nameAr": "العيون" },
+        { "nameEn": "Dakhla", "nameAr": "الداخلة" },
+        { "nameEn": "Boujdour", "nameAr": "بوجدور" },
+        { "nameEn": "Smara", "nameAr": "السمارة" }
+    ]
+},
+{
+    "countryEn": "tr",
+    "countryAr": "تركيا",
+    "capetal": { "nameEn": "Ankara", "nameAr": "أنقرة" },
+    "cities": [
+        { "nameEn": "Istanbul", "nameAr": "إسطنبول" },
+        { "nameEn": "Ankara", "nameAr": "أنقرة" },
+        { "nameEn": "Izmir", "nameAr": "إزمير" },
+        { "nameEn": "Bursa", "nameAr": "بورصة" }
+    ]
+},
+{
+    "countryEn": "pk",
+    "countryAr": "باكستان",
+    "capetal": { "nameEn": "Islamabad", "nameAr": "إسلام آباد" },
+    "cities": [
+        { "nameEn": "Karachi", "nameAr": "كراتشي" },
+        { "nameEn": "Lahore", "nameAr": "لاهور" },
+        { "nameEn": "Islamabad", "nameAr": "إسلام آباد" },
+        { "nameEn": "Peshawar", "nameAr": "بيشاور" }
+    ]
+},
+{
+    "countryEn": "af",
+    "countryAr": "أفغانستان",
+    "capetal": { "nameEn": "Kabul", "nameAr": "كابول" },
+    "cities": [
+        { "nameEn": "Kabul", "nameAr": "كابول" },
+        { "nameEn": "Kandahar", "nameAr": "قندهار" },
+        { "nameEn": "Herat", "nameAr": "هرات" },
+        { "nameEn": "Mazar-i-Sharif", "nameAr": "مزار شريف" }
+    ]
+},
+{
+    "countryEn": "ir",
+    "countryAr": "إيران",
+    "capetal": { "nameEn": "Tehran", "nameAr": "طهران" },
+    "cities": [
+        { "nameEn": "Tehran", "nameAr": "طهران" },
+        { "nameEn": "Mashhad", "nameAr": "مشهد" },
+        { "nameEn": "Isfahan", "nameAr": "أصفهان" },
+        { "nameEn": "Tabriz", "nameAr": "تبريز" }
+    ]
+},
+{
+    "countryEn": "my",
+    "countryAr": "ماليزيا",
+    "capetal": { "nameEn": "Kuala Lumpur", "nameAr": "كوالالمبور" },
+    "cities": [
+        { "nameEn": "Kuala Lumpur", "nameAr": "كوالالمبور" },
+        { "nameEn": "George Town", "nameAr": "جورج تاون" },
+        { "nameEn": "Ipoh", "nameAr": "ايبوه" },
+        { "nameEn": "Johor Bahru", "nameAr": "جوهور باهرو" }
+    ]
+},
+{
+    "countryEn": "id",
+    "countryAr": "إندونيسيا",
+    "capetal": { "nameEn": "Jakarta", "nameAr": "جاكرتا" },
+    "cities": [
+        { "nameEn": "Jakarta", "nameAr": "جاكرتا" },
+        { "nameEn": "Surabaya", "nameAr": "سورابايا" },
+        { "nameEn": "Bandung", "nameAr": "باندونغ" },
+        { "nameEn": "Medan", "nameAr": "ميدان" }
+    ]
+},
+{
+    "countryEn": "bn",
+    "countryAr": "بروناي",
+    "capetal": { "nameEn": "Bandar Seri Begawan", "nameAr": "بندر سري بكاوان" },
+    "cities": [
+        { "nameEn": "Bandar Seri Begawan", "nameAr": "بندر سري بكاوان" },
+        { "nameEn": "Kuala Belait", "nameAr": "كوالا بلايت" },
+        { "nameEn": "Tutong", "nameAr": "توتونغ" },
+        { "nameEn": "Bangar", "nameAr": "بنغر" }
+    ]
+}
+]

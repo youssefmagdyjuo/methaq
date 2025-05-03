@@ -1,0 +1,377 @@
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+h1 {
+    line-height: 1.1;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainContent_container{
+    margin: 1.5rem ;
+}
+.app {
+    /* width: 94%; */
+    margin: 0 auto;
+    /* height: 100vh; */
+
+}
+
+.iconWorld {
+    display: none;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 12rem;
+}
+
+.header_rigth,
+.header_left {
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+
+.header h1,
+h2 {
+    margin: 0;
+    align-self: center;
+}
+.header h1 {
+    font-size: 3rem;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 1rem ;
+}
+
+.date :nth-child(1)::after {
+    content: " |";
+}
+
+.date :nth-child(3)::before {
+    content: "| ";
+}
+
+.timer_GUI {
+    display: none;
+}
+
+.cards {
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.4rem;
+    
+}
+
+.prayerCard {
+    box-shadow: 0 0px 10px 0 #ffffff52;
+    border-radius: 0.2rem;
+    overflow: hidden;
+
+}
+
+.prayerImg {
+    height: 45%;
+}
+
+.prayerName {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.prayerTime {
+    font-weight: 600;
+    font-size: 4.7rem;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 1px 7px rgba(0, 255, 255, 0.269);
+}
+
+.select {
+    position: relative;
+    min-width: 200px;
+}
+
+.select svg {
+    position: absolute;
+    right: 12px;
+    top: calc(50% - 3px);
+    width: 10px;
+    height: 6px;
+    stroke-width: 2px;
+    stroke: #ffffff;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+}
+
+.select select {
+    width: 15rem !important;
+    height: 3rem;
+    -webkit-appearance: none;
+    padding: 7px 40px 7px 12px;
+    width: 100%;
+    border: 1px solid #e8eaed;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 150ms ease;
+    color: #fff;
+}
+
+.select select:required:invalid {
+    color: #fff;
+}
+
+.select select option {
+    color: #223254;
+}
+
+.select select option[value=""][disabled] {
+    display: none;
+}
+
+.select select:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 0px 10px 0 #ffffff52;
+}
+
+.select select:hover+svg {
+    stroke: #fff;
+}
+
+.sprites {
+    position: absolute;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.selecters {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 1rem;
+    
+}
+
+.MuiFormControl-root select,
+.css-1iw3t7y-MuiFormControl-root {
+    width: 15rem;
+}
+
+.MuiStack-root,
+.css-dvxtzn {
+    margin: 0rem !important;
+}
+
+/* for tablet  */
+@media screen and (max-width: 1320px) {
+    .mainContent_container{
+        margin-top: 0;
+        padding-bottom: 7rem;
+    }
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #root {
+        height: 100vh;
+    }
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.4rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .date {
+        justify-content: space-between;
+    }
+
+    .date :nth-child(1)::after {
+        content: "";
+    }
+
+    .date :nth-child(3)::before {
+        content: "";
+    }
+
+    .header h1,
+    h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .header_rigth {
+        /* height: fit-content; */
+    }
+
+    .header_left {
+        position: relative;
+        /* height: fit-content; */
+    }
+
+    .header {
+        height: fit-content;
+    }
+
+    .iconWorld {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 1rem;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+
+    #icon_active .location{
+        animation: icon 3.8s infinite linear;
+    }
+
+    @keyframes icon {
+            0% {
+                transform: translate(0px, 0px);
+                animation-timing-function:ease-in-out
+            }
+        
+            50% {
+                transform: translate(0px, 8px);
+                animation-timing-function:ease-in-out
+            }
+        
+            100% {
+                transform: translate(0px, 0px);
+                animation-timing-function:ease-in-out
+            }
+    }
+
+    .timer_GUI {
+        display: block;
+        background: #ff22;
+        height: 5px;
+        width: 70%;
+        place-self: center;
+        border-radius: 10rem;
+        margin-top: 0.5rem;
+    }
+
+    .cards {
+        margin-top: 2rem !important;
+        justify-items: center !important;
+        margin-bottom: 2rem !important;
+    }
+    .cards h1{
+        font-size: 1.7rem;
+    }
+
+    .prayerCard {
+        height: 11rem;
+        width: 11rem;
+        border-radius: 50%;
+    }
+
+    .prayerImg {
+        height: 43%;
+    }
+
+    .prayerName {
+        margin: 0.5rem;
+        font-size: 1.4rem;
+    }
+
+    .header {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 0.2rem 0 1.4rem;
+    }
+/* 
+    h1 {
+        font-size: 1.7rem !important;
+        margin: 0;
+        font-size: 3rem;
+    } */
+
+    h2 {
+        font-size: 1.3rem !important;
+    }
+
+    h3 {
+        margin: 0.7rem 0;
+        
+    }
+
+    .select {
+        width: 15rem;
+    }
+
+    .selecters {
+        transition: 0.5s;
+        flex-direction: column;
+        background-color: transparent;
+        backdrop-filter: blur(30px);
+        position: absolute;
+        height: 22rem !important;
+        width: 22rem !important;
+        margin: auto;
+        border-radius: 1rem;
+        box-shadow: 0 0px 10px 0 #ffffff52;
+        padding: 0;
+        left: 0;
+        right: 0;
+        top: 15rem;
+        position: absolute;
+        transform-origin: bottom left;
+        transform: scale(0) translate(0, 0);
+
+    }
+
+    .selecter_active {
+        transform: scale(1);
+    }
+    
+
+}
+
+@media screen and (max-width: 391px) {
+    .prayerCard {
+        height: 10.4rem;
+        width: 10.4rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .prayerCard {
+        height: 9.9rem;
+        width: 9.9rem;
+    }
+}
+
