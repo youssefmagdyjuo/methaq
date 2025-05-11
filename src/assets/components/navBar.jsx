@@ -24,7 +24,7 @@ export default function navBar() {
                 <h4>الزكاة</h4>
                 </div>
             </Link>
-            <Link to={'/methaq'}>
+            <Link to={'/'}>
             <div className='nav_elment_container'>
                 <div className='home'>
                         <img src='/imgs/home.png' alt='icon' />

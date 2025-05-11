@@ -10,17 +10,18 @@ import Azkar from "./assets/pages/azkar";
 import AzkarDetils from "./assets/pages/azkarDetils";
 import NavBar from "./assets/components/navBar";
 import Sbha from "./assets/pages/sbha";
+import Notfound from "./assets/pages/notfound";
 function App() {
   return (
     <div className="app">
       <Routes>
-        <Route path="/methaq" element={<MainContent />} />
+        <Route path="/" element={<MainContent />} />
         <Route path="/zakah" element={<Zakah />} />
         <Route path="/zakah/money" element={<Money />} />
         <Route path="/zakah/gold" element={<Gold />} />
         <Route path="/zakah/silver" element={<Silver />} />
         <Route path="/zakah/zoroa" element={<Zoroa />} />
-        <Route path="*" element={<h1>404 hhhhhhhhhhhhhhhhhhhhhhhhhhhh</h1>} />
+        <Route path="*" element={<Notfound/>} />
         <Route path="/azkar" element={<Azkar />} />
         <Route path="/azkarDetils/:zekrId" element={<AzkarDetils />} />
         <Route path="/sbha" element={<Sbha/>}/>
